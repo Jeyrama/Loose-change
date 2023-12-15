@@ -31,3 +31,5 @@ function looseChange(cents){
   a.Pennies = Math.floor(cents%25%10%5);
   return a;
 }
+
+// or
